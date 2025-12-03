@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-    <title>Tücsök Vendégház - Nógrád</title>
+    <title>Tücsök Vendégház</title>
     <meta name="description" content="Ízlésesen berendezett vendégházunk Nógrád faluban, a Börzsöny szívében várja a pihenni vágyókat." />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
 </svelte:head>
@@ -19,7 +19,6 @@
     <main class="mx-auto px-4 sm:px-6 lg:px-8">
         
         <section class="relative">
-            <!-- Special title that overlays with banner -->
             <div class="relative w-full flex items-center -top-16">
                 <div class="w-full">
                     <h2 class="relative top-4 text-4xl font-light text-center font-merriweather max-w-5/6 lg:max-w-1/3 bg-white pt-6 mx-auto ">
@@ -105,7 +104,6 @@
             </div> 
         </section>
 
-        <!-- Pricing Section -->
         <section id="arak" class="relative pt-12 pb-24 scroll-mt-6">
             <div class="absolute inset-0 -z-10 w-screen left-1/2 -translate-x-1/2 pt-12">
                 <div class="relative w-full h-full">
@@ -117,22 +115,16 @@
                 </div>
             </div>
 
+            <div class="relative w-full flex items-center mb-16">
+                <div class="w-full">
+                    <h2 class="relative text-4xl font-light text-center font-merriweather max-w-5/6 lg:max-w-1/3 pt-4 mx-auto h-full">
+                            Árak
+                        <div class="absolute h-full bg-white bottom-0 right-full w-[150%]"></div>
+                        <div class="absolute h-full bg-white bottom-0 left-full w-[150%]"></div>
+                    </h2>
+                </div>
+            </div>
 
-                 
-                    <div class="relative w-full flex items-center mb-16">
-                        <div class="w-full">
-                            <h2 class="relative text-4xl font-light text-center font-merriweather max-w-5/6 lg:max-w-1/3 pt-4 mx-auto h-full">
-                                    Árak
-                                <div class="absolute h-full bg-white bottom-0 right-full w-[150%]"></div>
-                                <div class="absolute h-full bg-white bottom-0 left-full w-[150%]"></div>
-                            </h2>
-                        </div>
-                     </div>
-
-          
-           
-
-                <!-- Adults 16-99 years -->
                 <div class="max-w-4xl mx-auto mb-12">
                     <h3 class="text-2xl font-semibold text-gray-700 mb-6 text-center">
                         16-99 éves korig (éjszakánként)
@@ -159,7 +151,6 @@
                     </div>
                 </div>
 
-                <!-- Children -->
                 <div class="max-w-4xl mx-auto mb-8">
                     <h3 class="text-2xl font-semibold text-gray-700 mb-6 text-center">
                         Gyerekek (éjszakánként)
@@ -193,7 +184,6 @@
                 </div>
         </section>
 
-        <!-- Contact -->
         <section id="kapcsolat" class="relative pb-16 scroll-mt-32">
                  <div class="relative w-full flex items-center -top-16">
                 <div class="w-full">
@@ -258,7 +248,6 @@
                         </div>
                     </div>
 
-                    <!-- Map -->
                     <div class="h-96 rounded-lg overflow-hidden shadow-lg">
                         <iframe
                             title="Tücsök Vendégház térkép"

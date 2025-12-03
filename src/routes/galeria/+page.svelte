@@ -2,18 +2,16 @@
   import { onMount } from 'svelte';
   import { Fancybox } from '@fancyapps/ui';
   import '@fancyapps/ui/dist/fancybox/fancybox.css';
+  import { base } from '$app/paths';
 
-  // Array of your images
   const images = Array.from({ length: 20 }, (_, i) => i + 1);
 
-  // Function to get image URLs
   const getImageUrl = (num, isThumb = false) => {
     const path = isThumb ? '/photos/thumb/' : '/photos/';
-    return `${path}${num}.jpg`;
+    return `${base}${path}${num}.jpg`;
   };
 
   onMount(() => {
-    // Initialize Fancybox with updated options
     Fancybox.bind('[data-fancybox]', {
       Carousel: {
         Thumbs: {
@@ -29,7 +27,6 @@
   },
     });
 
-    // Cleanup on component destroy
     return () => {
       Fancybox.destroy();
     };
@@ -45,7 +42,6 @@
 <div class="min-h-screen">
   <main class="mx-auto px-4 sm:px-6 lg:px-8">
     <section class="relative pb-24">
-      <!-- Title that overlays with banner -->
       <div class="relative w-full flex items-center -top-16">
         <div class="w-full">
           <h2 class="relative top-4 text-4xl font-light text-center font-merriweather max-w-5/6 lg:max-w-1/3 bg-white pt-6 mx-auto">
@@ -56,11 +52,7 @@
 
       <div class="max-w-6xl mx-auto pt-8">
         <div class="bg-white rounded-lg p-6 md:p-8 space-y-6">
-          <!-- Gallery Grid -->
           <div class="text-gray-700 leading-relaxed">
-
-
-            <!-- Gallery -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {#each images as imageNum}
                 <a
@@ -90,24 +82,3 @@
   </main>
 </div>
 
-<style>
-  /* Custom styling for Fancybox */
-  .fancybox__container {
-    --fancybox-thumbs-width: 120px;
-    --fancybox-thumbs-ratio: 1;
-  }
-
-  .fancybox__thumbs .carousel__slide {
-    padding: 8px;
-  }
-
-  /* Hide captions completely */
-  .fancybox__caption {
-    display: none !important;
-  }
-
-  /* Ensure images fit well in grid */
-  .aspect-square {
-    aspect-ratio: 1 / 1;
-  }
-</style>

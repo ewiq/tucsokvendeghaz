@@ -8,7 +8,6 @@
     <main class="mx-auto px-4 sm:px-6 lg:px-8">
         
         <section class="relative">
-            <!-- Special title that overlays with banner -->
             <div class="relative w-full flex items-center -top-16">
                 <div class="max-w-6xl mx-auto sm:px-6">
                     <h2 class="relative top-4 text-4xl font-light text-center font-merriweather bg-white pt-6 px-14 md:px-32 ">
@@ -16,11 +15,7 @@
                     </h2>
                 </div>
             </div>
-            
-          
-               
         </section>
-
 
           <section class="relative">
              <div class="max-w-6xl mx-auto pt-4">

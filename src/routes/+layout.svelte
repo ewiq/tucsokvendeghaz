@@ -1,6 +1,5 @@
 <script lang="ts">
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.png';
 	import { Menu, X, Mail, Phone, MapPin } from 'lucide-svelte';
 	import { slide } from 'svelte/transition';
 	import { base } from '$app/paths';
@@ -57,22 +56,18 @@
 
 <svelte:head>
 	<title>Tücsök Vendégház</title>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/favicon.png" />
 	<meta name="description" content="Tücsök Vendégház - Kényelmes szálláshely nyugodt környezetben." />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </svelte:head>
 
 <div class="font-[Montserrat] min-h-screen flex flex-col overflow-x-hidden">
-	<!-- Banner Image Spacer -->
 	<div class="w-full h-[60vh] min-h-[400px] max-h-[700px]"></div>
-
-	<!-- Fixed Banner Image -->
 	<div class="fixed top-0 left-0 right-0 w-full h-[60vh] min-h-[400px] max-h-[700px] overflow-hidden z-0">
 		<img src={createUrl('/banner.jpg')} alt="Tücsök Vendégház" class="w-full h-full object-cover" />
 	</div>
 
-	<!-- Header -->
 	<header class="fixed top-0 left-0 right-0 w-full z-20 shadow-sm flex items-center transition-all duration-300 {isScrolled ? 'bg-white h-20' : 'bg-white/75 h-32'}">
 		<div class="container mx-auto h-full px-4 flex justify-between items-center w-full">
 			<a href={createUrl('/')} class="flex items-center h-full">
@@ -81,7 +76,6 @@
 				</h1>
 			</a>
 
-			<!-- Desktop Nav -->
 			<nav class="hidden lg:flex space-x-4 xl:space-x-8 h-full font-medium transition-all duration-300 items-center pt-8">
 				{#each navItems as item}
 					<a
@@ -96,7 +90,6 @@
 				{/each}
 			</nav>
 
-			<!-- Mobile Button -->
 			<button onclick={toggleMobileMenu} class="lg:hidden p-2 text-gray-800 relative w-12 h-12">
 				<div class="absolute inset-0 flex items-center justify-center transition-all duration-300 {isMobileMenuOpen ? 'opacity-0 rotate-90 scale-75' : 'opacity-100 rotate-0 scale-100'}">
 					<Menu class="h-8 w-8" />
@@ -107,7 +100,6 @@
 			</button>
 		</div>
 
-		<!-- Mobile Menu -->
 		{#if isMobileMenuOpen}
 			<div transition:slide={{ duration: 150 }} class="lg:hidden absolute z-30 w-full {isScrolled ? 'bg-white top-20' : 'bg-white/70 top-32'} left-0 right-0">
 				<div class="px-4 py-2 text-right space-y-2 shadow-lg rounded-bl-lg">
@@ -132,7 +124,6 @@
 	<footer class="bg-teal-900 text-white mt-0 z-2">
 		<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-				<!-- Contact Info -->
 				<div class="flex flex-col space-y-3">
 					<div class="flex items-center space-x-3">
 						<MapPin class="h-5 w-5 shrink-0" />
@@ -158,7 +149,6 @@
 					<p class="text-gray-300 text-sm">MA22048920</p>
 				</div>
 
-				<!-- Right Links -->
 				<div class="flex flex-col items-start md:items-end space-y-2">
 					<a href={createUrl('/adatvedelmi')} class="hover:text-teal-300">Adatvédelmi tájékoztató</a>
 				</div>
