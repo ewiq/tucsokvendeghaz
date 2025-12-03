@@ -161,15 +161,8 @@
 				<!-- Right Links -->
 				<div class="flex flex-col items-start md:items-end space-y-2">
 					<a href={createUrl('/adatvedelmi')} class="hover:text-teal-300">Adatvédelmi tájékoztató</a>
-					<a href={createUrl('/hazirend')} class="hover:text-teal-300">Házirend</a>
 				</div>
 			</div>
 		</div>
 	</footer>
 </div>
-
-<style>
-	.font-merriweather {
-		font-family: 'Merriweather', Georgia, serif;
-	}
-</style>

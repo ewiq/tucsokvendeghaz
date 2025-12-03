@@ -29,12 +29,12 @@
             </div>
             
             <div class="max-w-6xl mx-auto pt-4">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                    <div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ">
+                    <div class="px-12 lg:px-0">
                         <img 
                             src={base + '/photos/4.jpg'} 
                             alt="Tücsök Vendégház" 
-                            class="rounded-lg shadow-lg w-full"
+                            class="rounded-lg shadow-lg w-full "
                         />
                     </div>
                     <div class="space-y-4 text-gray-700 text-lg leading-relaxed">
@@ -284,13 +284,5 @@
             text-decoration: none;
             cursor: default;
         }
-    }
-    
-    :global(body) {
-        font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    }
-    
-    .font-merriweather {
-        font-family: 'Merriweather', Georgia, serif;
     }
 </style>

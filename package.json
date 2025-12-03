@@ -37,6 +37,7 @@
 		"vite": "^7.2.2"
 	},
 	"dependencies": {
+		"@fancyapps/ui": "^6.1.6",
 		"lucide-svelte": "^0.555.0"
 	}
 }
