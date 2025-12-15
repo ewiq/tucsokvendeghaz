@@ -146,12 +146,22 @@
 					<h2 class="text-xl tracking-wide">Tücsök Vendégház</h2>
 					<p class="text-gray-300 font-light pb-2">&copy; {new Date().getFullYear()}</p>
 					<p class="text-gray-300 text-sm">NTAK Regisztrációs szám:</p>
-					<p class="text-gray-300 text-sm">MA22048920</p>
+					<p class="text-gray-300 text-sm">MA25119024</p>
 				</div>
 
 				<div class="flex flex-col items-start md:items-end space-y-2">
 					<a href={createUrl('/adatvedelmi')} class="hover:text-teal-300">Adatvédelmi tájékoztató</a>
+						<div class="hover:text-teal-300">
+					<a
+							href={base + '/Tücsök_Vendeghaz_Hazirend_HU.pdf'}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+						Házirend
+						</a>
 				</div>
+				</div>
+			
 			</div>
 		</div>
 	</footer>

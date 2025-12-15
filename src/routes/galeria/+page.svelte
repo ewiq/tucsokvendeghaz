@@ -4,7 +4,7 @@
   import '@fancyapps/ui/dist/fancybox/fancybox.css';
   import { base } from '$app/paths';
 
-  const images = Array.from({ length: 22 }, (_, i) => i + 1);
+  const images = Array.from({ length: 37 }, (_, i) => i + 1);
 
   const getImageUrl = (num, isThumb = false) => {
     const path = isThumb ? '/photos/thumb/' : '/photos/';

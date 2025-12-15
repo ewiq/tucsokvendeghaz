@@ -133,18 +133,20 @@
                         <table class="w-full border-collapse border border-gray-300">
                             <thead>
                                 <tr class="bg-teal-600">
-                                    <th class="border border-gray-300 px-4 py-3">1 fő</th>
-                                    <th class="border border-gray-300 px-4 py-3">2 fő</th>
-                                    <th class="border border-gray-300 px-4 py-3">3 fő</th>
-                                    <th class="border border-gray-300 px-4 py-3">4 fő</th>
+                                    <th class="border border-gray-300 sm:px-4 py-3">1 fő</th>
+                                    <th class="border border-gray-300 sm:px-4 py-3">2 fő</th>
+                                    <th class="border border-gray-300 sm:px-4 py-3">3 fő</th>
+                                    <th class="border border-gray-300 sm:px-4 py-3">4 fő</th>
+                                    <th class="border border-gray-300 sm:px-4 py-3">5 fő</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="text-center bg-white">
-                                    <td class="border border-gray-300 px-4 py-3">22 000 Ft</td>
-                                    <td class="border border-gray-300 px-4 py-3">22 000 Ft</td>
-                                    <td class="border border-gray-300 px-4 py-3">30 000 Ft</td>
-                                    <td class="border border-gray-300 px-4 py-3">37 500 Ft</td>
+                                    <td class="border border-gray-300 sm:px-4 py-3">28&nbsp;000 Ft</td>
+                                    <td class="border border-gray-300 sm:px-4 py-3">30&nbsp;000 Ft</td>
+                                    <td class="border border-gray-300 sm:px-4 py-3">41&nbsp;000 Ft</td>
+                                    <td class="border border-gray-300 sm:px-4 py-3">49&nbsp;000 Ft</td>
+                                    <td class="border border-gray-300 sm:px-4 py-3">57&nbsp;000 Ft</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -166,9 +168,9 @@
                             </thead>
                             <tbody>
                                 <tr class="text-center bg-white">
-                                    <td class="border border-gray-300 px-4 py-3">0 Ft</td>
-                                    <td class="border border-gray-300 px-4 py-3">5 000 Ft</td>
-                                    <td class="border border-gray-300 px-4 py-3">6 000 Ft</td>
+                                    <td class="border border-gray-300 px-4 py-3">0&nbsp;Ft</td>
+                                    <td class="border border-gray-300 px-4 py-3">6&nbsp;500 Ft</td>
+                                    <td class="border border-gray-300 px-4 py-3">7&nbsp;500 Ft</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,7 +246,7 @@
 
                         <div>
                             <h3 class="text-xl font-bold text-gray-800 mb-3">NTAK Regisztrációs szám</h3>
-                            <p class="text-gray-700 text-lg">MA22048920</p>
+                            <p class="text-gray-700 text-lg">MA25119024</p>
                         </div>
                     </div>
 
