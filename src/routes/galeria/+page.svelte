@@ -4,7 +4,7 @@
   import '@fancyapps/ui/dist/fancybox/fancybox.css';
   import { base } from '$app/paths';
 
-  const images = Array.from({ length: 20 }, (_, i) => i + 1);
+  const images = Array.from({ length: 22 }, (_, i) => i + 1);
 
   const getImageUrl = (num, isThumb = false) => {
     const path = isThumb ? '/photos/thumb/' : '/photos/';
@@ -51,15 +51,15 @@
       </div>
 
       <div class="max-w-6xl mx-auto pt-8">
-        <div class="bg-white rounded-lg p-6 md:p-8 space-y-6">
+        <div class="bg-white p-6 md:p-8 space-y-6">
           <div class="text-gray-700 leading-relaxed">
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
               {#each images as imageNum}
                 <a
                   href={getImageUrl(imageNum)}
                   data-fancybox="gallery"
                   data-caption=""
-                  class="block group overflow-hidden rounded-lg shadow-md transition-shadow duration-300"
+                  class="block group overflow-hidden rounded shadow-md transition-shadow duration-300"
                 >
                   <div class="relative aspect-square overflow-hidden">
                     <img

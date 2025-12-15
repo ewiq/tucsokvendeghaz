@@ -29,11 +29,11 @@
             
             <div class="max-w-6xl mx-auto pt-4">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ">
-                    <div class="px-12 lg:px-0">
+                    <div class="md:px-12 lg:px-0">
                         <img 
-                            src={base + '/photos/4.jpg'} 
+                            src={base + '/photos/15.jpg'} 
                             alt="Tücsök Vendégház" 
-                            class="rounded-lg shadow-lg w-full "
+                            class="rounded-lg shadow-lg w-full  "
                         />
                     </div>
                     <div class="space-y-4 text-gray-700 text-lg leading-relaxed">
@@ -80,22 +80,22 @@
                     </div>
                     <div class="aspect-square overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <img 
-                            src={base + `/photos/11.jpg`} 
-                            alt={`Vendégház kép 11`}
+                            src={base + `/photos/10.jpg`} 
+                            alt={`Vendégház kép 10`}
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                     </div>
                     <div class="aspect-square overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <img 
-                            src={base + `/photos/18.jpg`} 
-                            alt={`Vendégház kép 18`}
+                            src={base + `/photos/1.jpg`} 
+                            alt={`Vendégház kép 1`}
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                     </div>
                     <div class="aspect-square overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                         <img 
-                            src={base + `/photos/3.jpg`} 
-                            alt={`Vendégház kép 3`}
+                            src={base + `/photos/20.jpg`} 
+                            alt={`Vendégház kép 20`}
                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
                     </div>
@@ -177,9 +177,9 @@
 
                 <div class="max-w-4xl mx-auto pt-4">
                     <p class="text-gray-600 text-center text-lg">
-                        Az árak HUF-ban értendők és tartalmazzák az ÁFÁ-t. 
-                        Külön fizetendő az idegenforgalmi adó, melynek mértéke naponta 300 Ft 
-                        minden 18. életévét betöltött vendég után.
+                        Az árak HUF-ban értendők. 
+                        Külön fizetendő az idegenforgalmi adó, melynek mértéke naponta
+                        300&nbsp;Ft minden 18. életévét betöltött vendég után.
                     </p>
                 </div>
         </section>
