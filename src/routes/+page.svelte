@@ -49,7 +49,7 @@
                         <p>
                             Az antik bútorokkal berendezett vendégházban két szoba áll a vendégek rendelkezésére. 
                             A házban jól felszerelt konyha, étkező, fürdőszoba is található. 
-                            Pótágyakkal összesen hat férőhelyes a ház.
+                            Pótágyakkal összesen öt férőhelyes a ház.
                         </p>
                         <p>
                             Hangulatos kis kert is tartozik a házhoz.
